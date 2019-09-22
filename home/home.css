@@ -70,8 +70,15 @@
 
   .owner p{
       margin-right: 20%;
-      word-spacing: 2px
+      word-spacing: 2px;
+      
+     
   }
+  .right-owner{
+      margin: 0%
+  }
+
+ 
 
 
 
@@ -82,8 +89,8 @@
       text-align: center;
       color: purple;
       border-bottom: 5px double goldenrod;
-      width: 600px;
-      margin-left: 30%;
+      width: 30%;
+      margin-left: 35%;
       
       
   }
@@ -132,3 +139,19 @@
     height: 0;
     visibility: hidden;
 }
+
+
+@media only screen and (max-width: 500px) {
+
+.ages h2{
+    width: 300px;
+    margin-left: 18%
+;
+}
+
+   .ages img{
+       width: 200px;
+       height: 200px;
+
+   }
+  }
